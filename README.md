@@ -1,8 +1,7 @@
 # Project 1 - Diabetic Retinopathy Detection
 
-# Team05 
-- Ram Sabarish Obla Amar Bapu (st169693@stud.uni-stuttgart.de)  
-- Swetha Lakshmana Murthy     (st169481@stud.uni-stuttgart.de)  
+
+
 
 # How to run the code
 Run the **main.py** file.
@@ -38,11 +37,11 @@ The following operations are performed on the input image,
 - Resizing the image to 256x256(img_height x img_width) without any distortion.  
 - Cropping the image borders  
 
-![alt text](experiments/images/Resized.png)
+![alt text](diabetic_retinopathy/experiments/images/Resized.png)
 
 Binarization and balancing the dataset with **label 0(NRDR)** and **label 1(RDR)**,
 
-| ![alt text](experiments/images/hist1.png) | ![alt text](experiments/images/hist2.png) | ![alt text](experiments/images/hist3.png) |
+| ![alt text](diabetic_retinopathy/experiments/images/hist1.png) | ![alt text](diabetic_retinopathy/experiments/images/hist2.png) | ![alt text](diabetic_retinopathy/experiments/images/hist3.png) |
 |------------------------------------|------------------------------------|------------------------------------|
 
 **2.  Data Augmentation**
@@ -53,7 +52,7 @@ Techniques used,
 - Shift  
 - Horizontal and Vertical Flipping  
 
-![alt text](experiments/images/Augmented_Images.png)
+![alt text](diabetic_retinopathy/experiments/images/Augmented_Images.png)
 
 **3. Hyperparameter Parameter Tuning using HParams**  
 
@@ -64,29 +63,29 @@ Hyperparameter tuning is performed to obtain a consistent model architecture,
 - HP_DENSE_LAYER  
 - HP_DROPOUT  
 
-| ![alt text](experiments/images/Acc_hparams.png) | ![alt text](experiments/images/acc_Hparams.png) |
+| ![alt text](diabetic_retinopathy/experiments/images/Acc_hparams.png) | ![alt text](diabetic_retinopathy/experiments/images/acc_Hparams.png) |
 |--------------------------------------|------------------------------------------|
 
 **4. Model Architecture**  
 
 The following architecture has been used, 
 
-![alt text](experiments/images/Model_Architecture.png)
+![alt text](diabetic_retinopathy/experiments/images/Model_Architecture.png)
 
 **Model Summary**
 
-![alt text](experiments/images/Model_Summary.png)
+![alt text](diabetic_retinopathy/experiments/images/Model_Summary.png)
 
 **5. Evaluation and Metrics**
 
 The model is evaluated and the training and validation accuracy and loss is as shown,  
 x-axis : No of epochs | y-axis : Train/Validation Accuracy and Loss
 
-![alt text](experiments/images/Train_Val_728.png)
+![alt text](diabetic_retinopathy/experiments/images/Train_Val_728.png)
 
 **Metrics : Confusion Matrix**
 
-![alt text](experiments/images/CM_728.jpg)
+![alt text](diabetic_retinopathy/experiments/images/CM_728.jpg)
 
 **6. Deep Visualization**
 
@@ -94,8 +93,8 @@ The following two techniques have been used to visualize the images,
 - Grad-CAM
 - Grad-CAM + Guided Backpropagation  
 
-![alt text](experiments/images/grad_cam_3.png)  
+![alt text](diabetic_retinopathy/experiments/images/grad_cam_3.png)  
 
-![alt text](experiments/images/grad_cam_2.png)  
+![alt text](diabetic_retinopathy/experiments/images/grad_cam_2.png)  
 
-![alt text](experiments/images/grad_cam_4.png) 
+![alt text](diabetic_retinopathy/experiments/images/grad_cam_4.png) 
