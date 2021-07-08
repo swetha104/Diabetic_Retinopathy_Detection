@@ -1,5 +1,8 @@
-# Diabetic Retinopathy Detection
+# Project 1 - Diabetic Retinopathy Detection
 
+# Team05 
+- Ram Sabarish Obla Amar Bapu (st169693@stud.uni-stuttgart.de)  
+- Swetha Lakshmana Murthy     (st169481@stud.uni-stuttgart.de)  
 
 # How to run the code
 Run the **main.py** file.
